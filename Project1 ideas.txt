@@ -1,0 +1,7 @@
+Ideas to solve video stabalization:
+
+Use different stabalization algos before detection and compare results
+
+Find a stationary object in the image and use it as a reference point
+
+Find the transformation between frames and smooth is to be close to zero?
