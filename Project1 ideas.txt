@@ -1,4 +1,4 @@
-Ideas to solve video stabilization:
+#Ideas to solve video stabilization:
 
 Use different stabilization algorithms before detection and compare results
 
@@ -7,3 +7,7 @@ Find a stationary object in the image and use it as a reference point
 Find the transformation between frames and smooth is to be close to zero?
 
 Calculate translational and angular displacement of points of interest in relation to reference points of interest. Adjust the image accordingly.
+
+Identify inclement weather conditions and minimize false positive events (Fogging, lensing, glare)
+
+Minimize transmission latency and bandwidth requirements for remote locations via compression 
