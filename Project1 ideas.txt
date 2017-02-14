@@ -10,4 +10,4 @@ Calculate translational and angular displacement of points of interest in relati
 
 Identify inclement weather conditions and minimize false positive events (Fogging, lensing, glare)
 
-Minimize transmission latency and bandwidth requirements for remote locations via compression 
+Minimize transmission latency and bandwidth requirements for remote locations via efficient compression 
