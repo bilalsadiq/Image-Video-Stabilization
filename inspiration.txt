@@ -5,13 +5,18 @@ Due: Feb 14, 2017
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Who are your stakeholders?
--) Customers 
--) Employees
--) Owners
+-) Security personnel
+-) Security supervisors
+-> Premise proprietor
 
 What is the role of each stakeholder?
--) Owners and employees can catch any intruder or unknown person in their territory.
--) Customers of these places might need the system to gather evidence in case there is an intrusion.
+-) Security personnel would monitor events of interest detected in the environment. They report to their supervisors of any
+suspicious activities
+-) Security supervisors collect information gathered from surveillance to make informed responses with regards to the context
+and severity of security incidents
+-) The premise proprietor would make decisions on relocating, installing, or otherwise adjusting surveillance camera deployments
+based on the likelihood and impact of a successful breach into an area of interest.
+
 
 Who are the intended beneficiaries?
 -) The intended beneficiaries are those people who have valuables in the outdoors and might need surveillance. Along with video stablization so that they see the moving object clearly.
