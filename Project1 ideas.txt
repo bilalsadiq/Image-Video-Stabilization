@@ -11,3 +11,15 @@ Calculate translational and angular displacement of points of interest in relati
 Identify inclement weather conditions and minimize false positive events (Fogging, lensing, glare)
 
 Minimize transmission latency and bandwidth requirements for remote locations via efficient compression 
+
+Define maximum angular and translational displacement before maintenance is required
+
+Issue maintenance alerts to responsible crews after periodic/ event-related times
+
+Establish secure, lightweight communications links with central "dashboard" server and related surveillance systems
+
+Provide a comprehensive API through which external programs may communicate to extend access to camera data
+
+Provide an intuitive user interface through which important events and image information are relayed.
+
+Provide archive functionality through which events of interest are recorded for future review by security officers and their supervisors
