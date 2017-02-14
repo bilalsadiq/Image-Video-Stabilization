@@ -1,7 +1,9 @@
-Ideas to solve video stabalization:
+Ideas to solve video stabilization:
 
-Use different stabalization algos before detection and compare results
+Use different stabilization algorithms before detection and compare results
 
 Find a stationary object in the image and use it as a reference point
 
 Find the transformation between frames and smooth is to be close to zero?
+
+Calculate translational and angular displacement of points of interest in relation to reference points of interest. Adjust the image accordingly.
