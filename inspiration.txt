@@ -14,15 +14,16 @@ What is the role of each stakeholder?
 -) Customers of these places might need the system to gather evidence in case there is an intrusion.
 
 Who are the intended beneficiaries?
-The intended beneficiaries are those people who have valuables in the outdoors and might need surveillance. Along with video stablization so that they see the moving object clearly.
+-) The intended beneficiaries are those people who have valuables in the outdoors and might need surveillance. Along with video stablization so that they see the moving object clearly.
 
 What are persona for each stakeholder?
-The employees and owners can evaluate or present new ideas and features for the system. 
-The customer can request for more features or more security for the system.
+-) The employees and owners can evaluate or present new ideas and features for the system. 
+-) The customer can request for more features or more security for the system.
 
 
 What is your plan to understand the need?
-
+-) We can ask the stakeholders about their demands for the system.
+-) Discuss and comprehend their requirements to better understand the needs.
 
 
 Having done so, enumerate up to 20 questions you want to ask from your stakeholders.
