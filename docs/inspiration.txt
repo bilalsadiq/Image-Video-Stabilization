@@ -1,0 +1,79 @@
+Assignment 1.1
+
+Due: Feb 14, 2017
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Who are your stakeholders?
+-) Security personnel
+-) Security supervisors
+-> Premise proprietor
+
+What is the role of each stakeholder?
+-) Security personnel would monitor events of interest detected in the environment. They report to their supervisors of any
+suspicious activities
+-) Security supervisors collect information gathered from surveillance to make informed responses with regards to the context
+and severity of security incidents
+-) The premise proprietor would make decisions on relocating, installing, or otherwise adjusting surveillance camera deployments
+based on the likelihood and impact of a successful breach into an area of interest.
+
+
+Who are the intended beneficiaries?
+-) The intended beneficiaries are those people who have valuables in the outdoors and might need surveillance. Along with video stablization so that they see the moving object clearly.
+
+What are persona for each stakeholder?
+-) The employees and owners can evaluate or present new ideas and features for the system. 
+-) The customer can request for more features or more security for the system.
+
+
+What is your plan to understand the need?
+-) We can ask the stakeholders about their demands for the system.
+-) Discuss and comprehend their requirements to better understand the needs.
+
+
+Having done so, enumerate up to 20 questions you want to ask from your stakeholders.
+	1) How big is the area you want to cover?
+	2) How many employees work at the site?
+	3) How many intrusions have occured in the past?
+	4) Have their been any cases of stealing at your site?
+	5) Have you ever used a system like ours before?
+	6) If yes, then did what was your reason for switching to ours?
+	7) Did that system detect moving objects well?
+	8) How often does it rain in your town?
+	9) How windy is it in your area?
+	10) How dark does the area gets?
+	11) How is the neighbourhood near your site?
+	12) How many employees will you dedicate for surveillance. 
+	13) How many cameras would you like to have at the site?
+	14) What are the possible entry and exit points at your site?
+	15) At which point in your site, would you like most of the focus?
+	16) What is the longest building or structure at your site?
+	17) What are the active hours in which there are people expected at the site?
+	18) Would you like to have system installed in your Phone? So you can watch it anywhere.
+	19) What color clothes do the people expected to be at your site usually wear?
+	20) Do you expect large vehicles to be at your site during night time?
+
+Feedback and Answers (Feb. 15, 2017):
+
+The main stakeholder for your project will be the Customs and Border Protection agency, specifically Border Patrol Officers.  Your questions are relevant for different stakeholders for the domain you have considered. You have not considered the relevance of stabilization and hence not considered the implication of the usage of data collected or the resulting compromised quality of observation. Below, I am generalizing some of your questions to address the domain of usage for Border Patrol Officers and providing answers to help focus the understanding of the problem and its operating requirements. 
+
+1) How big is the area you want to cover? - Large field of view, typically 1-2 mile visibility and up to 1 mile in field of view.
+
+2) Did that system detect moving objects well? - The scene will have both moving and static objects.  Some of the moving objects could be of interest.  Motion can be fairly small and objects could be small as well considering the viewing distance.
+
+3) How often does it rain in your town? - This will be variable since cameras could be deployed on the norther or southern US border.
+
+4) How windy is it in your area? - As above.
+
+5) How dark does the area gets? - Would need operational capability both day and night.
+
+6) How is the neighbourhood near your site? - Can be variable, but in most cases hilly with lots of trees and rocks.
+
+7) What are the active hours in which there are people expected at the site? - As above.
+
+8) Would you like to have system installed in your Phone? So you can watch it anywhere. - Not a critical requirement.
+
+9) What color clothes do the people expected to be at your site usually wear? - Colors that would blend well with the surrounding background.
+
+10) Do you expect large vehicles to be at your site during night time? - Typically not.
+
