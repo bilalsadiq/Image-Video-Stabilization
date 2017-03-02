@@ -1,0 +1,11 @@
+Power consumption of algorithm
+Power to send data
+Performance of algorithm vs others
+
+Detect camera motion
+Detect small object motion
+Work in multiple lihting conditions
+counting multiple objects
+Detect cars
+Detect people
+Work over multiple distances
