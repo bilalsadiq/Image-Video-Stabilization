@@ -18,3 +18,15 @@ Can we detect camera motion       | Detect if a huge percentage of   | Able to d
                                   | pixels have moved and if the     | camera motion and not some 
                                   |  previous frames are similar     |  random object
 ---------------------------------------------------------------------------------------------------------------
+Will stabilization function       | 
+in multiple lighting conditions   |
+---------------------------------------------------------------------------------------------------------------
+Will the stabliization be         |
+consistent with object distance   |
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Nonparametric Kernel Density 
+------------------------------------------------
