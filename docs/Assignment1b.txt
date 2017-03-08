@@ -1,11 +1,20 @@
-Power consumption of algorithm
+Power consumption of algorithm 
 Power to send data
 Performance of algorithm vs others
 
-Detect camera motion
+Detect camera motion 
 Detect small object motion
-Work in multiple lihting conditions
+Work in multiple lighting conditions
 counting multiple objects
 Detect cars
 Detect people
 Work over multiple distances
+
+
+---------------------------------------------------------------------------------------------------------------
+          Usage Question          |         Motion Detection         |          Indicator of Success          |
+---------------------------------------------------------------------------------------------------------------
+Can we detect camera motion       | Detect if a huge percentage of   | Able to detect if it is actual
+                                  | pixels have moved and if the     | camera motion and not some 
+                                  |  previous frames are similar     |  random object
+---------------------------------------------------------------------------------------------------------------
