@@ -16,13 +16,16 @@ Work over multiple distances
 ---------------------------------------------------------------------------------------------------------------
 Can we detect camera motion       | Detect if a huge percentage of   | Able to detect if it is actual
                                   | pixels have moved and if the     | camera motion and not some 
-                                  |  previous frames are similar     |  random object
+                                  |  previous frames are similar.    |  random object.
 ---------------------------------------------------------------------------------------------------------------
-Will stabilization function       | 
-in multiple lighting conditions   |
+Will stabilization function       | Detect the object by inverting   |  Able to see objects in the Dark lighting
+in multiple lighting conditions   |the image and changing the RGB    | conditions where it is generally hard to 
+                                  |values until we get the results.  | depict objects.
+                                  |                                  |                                  
 ---------------------------------------------------------------------------------------------------------------
-Will the stabliization be         |
-consistent with object distance   |
+Will the stabliization be         | If the size of the object gets   | Detect farther objects and stablize the 
+consistent with object distance   | smaller then detect it as being  | video same way as closer objects.
+                                  | farther from the camera.         |
 ---------------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------------
