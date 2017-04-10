@@ -1,3 +1,13 @@
+/*
+Added By Bilal and Sadia
+This program will take an input file(video file),
+which will detect motion and Shaking of the video 
+then this algorithm will run. 
+After finish running, It  will stabilized the video
+and will saved on the same directory as a .avi video file.
+*/
+
+
 #include "VidStab.h";
 
 int main(int argc, const char **argv)
