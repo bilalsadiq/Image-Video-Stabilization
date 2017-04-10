@@ -1,8 +1,8 @@
 #include <sstream>
-#include <String>
+#include <string>
 #include <iostream>
-#include <opencv\highgui.h>
-#include <opencv\cv.h>
+#include <opencv/highgui.h>
+#include <opencv/cv.h>
 #include <opencv2/core/utility.hpp>
 #include "opencv2/video/tracking.hpp"
 #include "opencv2/imgproc.hpp"
@@ -84,12 +84,12 @@ void createTrackbars() {
 	namedWindow(trackbarTitle_Window, 0);
 	//create memory to store trackbar name on window
 	char TrackbarName[50];
-	sprintf_s(TrackbarName, "minimum_H", minimum_H);
-	sprintf_s(TrackbarName, "maximum_H", maximum_H);
-	sprintf_s(TrackbarName, "minimum_S", minimum_S);
-	sprintf_s(TrackbarName, "maximum_S", maximum_S);
-	sprintf_s(TrackbarName, "minimum_V", minimum_V);
-	sprintf_s(TrackbarName, "maximum_V", maximum_V);
+	//sprintf_s(TrackbarName, "minimum_H", minimum_H);
+	//sprintf_s(TrackbarName, "maximum_H", maximum_H);
+	//sprintf_s(TrackbarName, "minimum_S", minimum_S);
+	//sprintf_s(TrackbarName, "maximum_S", maximum_S);
+	//sprintf_s(TrackbarName, "minimum_V", minimum_V);
+	//sprintf_s(TrackbarName, "maximum_V", maximum_V);
 
 
 	/*
