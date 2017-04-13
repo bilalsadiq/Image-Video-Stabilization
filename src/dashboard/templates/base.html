@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="base.css")}}'>
+    <script src='{{ url_for("static", filename="jquery-3.2.1.min.js") }}'></script>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <h1>Web Dashboard</h1>
+    </header>
+    <nav>
+        <a href='/'>Home</a>
+    </nav>
+    <main>
+        {% block main %}
+        {% endblock %}
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

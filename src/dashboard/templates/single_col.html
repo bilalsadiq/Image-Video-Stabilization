@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel='stylesheet' type='text/css' href='{{url_for("static", filename="single_col.css")}}'>
+{% endblock %}
+
+{% block main %}
+<div class='col'>
+    {% block content %}
+    {% endblock %}
+</div>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
