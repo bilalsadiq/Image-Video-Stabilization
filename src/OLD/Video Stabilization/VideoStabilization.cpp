@@ -90,7 +90,7 @@ int main(int argc, const char **argv)
 
 		// check if source video is specified
 
-		string inputPath = "Shaky_Footage.mp4";
+		string inputPath = "out.avi";
 		if (inputPath.empty())
 			throw runtime_error("specify video file path");
 

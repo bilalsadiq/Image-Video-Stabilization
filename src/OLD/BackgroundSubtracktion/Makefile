@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -g -Wall
-SRCS = VideoStabilization.cpp
-PROG = videoStabilization
+SRCS = BackgroundSubtraction.cpp
+PROG = BackgroundSubtraction
 
 OPENCV = `pkg-config opencv --cflags --libs`
 LIBS = $(OPENCV)
