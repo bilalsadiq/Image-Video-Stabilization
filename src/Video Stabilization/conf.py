@@ -1,1 +1,1 @@
-VID_PATH='~/projects/project1c/project1c/src/Video\ Stabilization/stabilized.avi'
+VID_PATH='/home/admin/projects/project1c/stabilization/stabilized.avi'
