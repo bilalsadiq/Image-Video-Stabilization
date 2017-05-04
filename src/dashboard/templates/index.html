@@ -1,5 +1,11 @@
 {% extends 'single_col.html' %}
 
+{% block head %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='index.js')}}"></script>
+{% endblock %}
 {% block content %}
-<img src="{{ url_for('stream') }}"></img>
+<div id='canvas'>
+</div>
+<!--<img src="{{ url_for('stream') }}"></img>-->
 {% endblock %}

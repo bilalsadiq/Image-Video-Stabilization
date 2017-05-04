@@ -3,6 +3,7 @@
 <head>
     <link rel='stylesheet' type='text/css' href='{{ url_for("static", filename="base.css")}}'>
     <script src='{{ url_for("static", filename="jquery-3.2.1.min.js") }}'></script>
+    <script src='{{ url_for("static", filename="base.js") }}'></script>
     {% block head %}
     {% endblock %}
 </head>
@@ -18,6 +19,9 @@
         {% endblock %}
     </main>
     <footer>
+        <div id='diagnostics'>
+            <!-- JQuery-loaded dynamic content -->
+        </div>
     </footer>
 </body>
 </html>
