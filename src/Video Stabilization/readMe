@@ -1,3 +1,0 @@
-We input a video file in the code. The algorithm will run, detect any shaking or blurring then it will run and stabilize that part. Then save an output file in the same directory in .avi format.
-
-The input video file is 'Shaky_Footage.mp4' and the output file is 'shaky_footage.avi'
