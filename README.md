@@ -15,3 +15,6 @@ Dealing with the implementation of the web server in Raspberry Pi:
 Our raspberry pi is connected to a cloud server, which consists of an apache web server,  a redis server instance and a flask script executed by the apache server. When a client connects to our web service. Their browser will request the most recent frame every second. Meanwhile, in the background, the raspberry pi continuously posts images to our webserver. The web server will then combine the most recent frame with the other frames, analyze them, and return a stabilized image. This is the image the web browser will receive at the end. 
 We introduced a cloud server, which also ran the web service. This was done so that we could regulate the operations which go on in the raspberry pi because of the limited amount of resources in it. 
 Furthermore, we had to regulate the burden of Latency. For, in some conditions the raspberry pi would not be able to communicate with the server effectively if it does not have enough bandwidth. To solve the problem we used only black and white images. This uses 1/3 of the Bandwidth as compared to the regular colored images. This will allow the Pi to function effectively in remote environment where we have limited amount of facilities.  
+
+
+Final video: https://drive.google.com/open?id=0Bxl76hN_K8DzYkZGZm5mU25zM00
