@@ -15,6 +15,7 @@ def helper_thread(url='127.0.0.1'):
     
     cam = PiCamera()
     cam.resolution = CAM_RESOLUTION
+    cam.color_effects = CAM_BLACK_AND_WHITE
 
     try:
         req = pycurl.Curl()
@@ -49,6 +50,8 @@ def helper_thread(url='127.0.0.1'):
                         DEBUG = False
             except pycurl.error as e:
                 continue
+            finally:
+                res.close()
     except Exception as e:
         print '[-] ERROR: ' + e.message
     finally:
