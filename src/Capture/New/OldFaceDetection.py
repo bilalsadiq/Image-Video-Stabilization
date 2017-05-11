@@ -7,15 +7,14 @@ from FaceDependencies import *
 #face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
+#Prereq for Detection of People
+#hog = cv2.HOGDescriptor()
+#hog.setSVMDetector( cv2.HOGDescriptor_getDefaultPeopleDetector() )
 
 #cap = cv2.VideoCapture("stabilized.avi")
 def main():
-    # Preparing hog descriptor
-    cascades = prepareCascades()
-    hog = prepareHog()
     while True:
-        #TODO
-        # - Create and import redis byteinput into matrix
+        #ret, img = cap.read()
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
         #Detects People
