@@ -15,6 +15,7 @@ def helper_thread(url='127.0.0.1'):
     
     cam = PiCamera()
     cam.resolution = CAM_RESOLUTION
+    cam.color_effects = CAM_BLACK_AND_WHITE
 
     try:
         req = pycurl.Curl()
